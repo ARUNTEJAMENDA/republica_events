@@ -34,7 +34,7 @@ nav{
     background: transparent;
     /*  */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 nav #company{
     width:40%;
@@ -88,12 +88,12 @@ nav ul li{
     width: 100vw;
     /*  */
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content:center;
     align-items: center;
 }
 #tiles{
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 40px;
     padding:0;
     /*  */
     height:400px;
@@ -235,7 +235,7 @@ i{
         margin:0;
         padding: 0;
         height:30vh;
-        flex-direction: row-reverse;
+        flex-direction:column;
     }
     nav #company{
         width:100vw;
@@ -244,10 +244,18 @@ i{
         width:100vw;
     }
     nav #links{
-        display: none;
+        /* display: none; */
         margin:0;
         padding:0;
         width:100vw;
+    }
+    #links ul{
+        margin:0;
+        padding:0;
+
+    }
+    #one{
+        height:max-content;
     }
     #one #company img{
         margin:0;
@@ -256,6 +264,9 @@ i{
     #two span img{
         all: initial;
         width:100vw;
+    }
+    #three{
+        flex-direction: column;
     }
     #three #tiles{
         margin: 20px 0px 0px 0px;
