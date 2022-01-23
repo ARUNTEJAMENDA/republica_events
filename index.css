@@ -1,0 +1,227 @@
+html{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    width:5px;
+    background: orange;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(11, 255, 11);
+}
+#main{
+    margin:0;
+    padding:0;
+     /* */
+    width: 100vw;
+    /*  */
+    background:url("background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav{
+    margin:0;
+    padding:0;
+    /*  */
+    height:15vh;
+    width:100vw;
+    /*  */
+    background: transparent;
+    /*  */
+    display: flex;
+}
+nav #company{
+    width:40%;
+    cursor: pointer;
+}
+nav #company img{
+    padding: 10px 0px 0px 20px;
+    aspect-ratio: 919/215;
+    width:400px;
+}
+
+nav #links{
+    width: 60%;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 100px;
+    /*  */
+    cursor: pointer;
+}
+#two{
+    margin:0;
+    padding: 0px 0px 40px 0px;
+    /*  */
+    height:15vh;
+    width:100vw;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#two span img{
+    margin:0;
+    padding:0;
+    /*  */
+    /* aspect-ratio: 833/93; */
+    /* width:auto; */
+}
+#three{
+    margin:0;
+    padding:0;
+    /*  */
+    background: transparent;
+    /*  */
+    height:max-content;
+    width: 100vw;
+    /*  */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 80px;
+    justify-content:center;
+    align-items: center;
+}
+#tiles{
+    margin:0;
+    padding:0;
+    /*  */
+    height:400px;
+    width:300px;
+    /*  */
+    border-radius: 20px;
+    /*  */
+    box-shadow: 0px 0px 10px 0px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+#tiles #piece1{
+    margin:0;
+    padding:0;
+    /*  */
+    height:42%;
+    width:100%;
+    /*  */
+    overflow: hidden;
+}
+#tiles #piece1 img{
+    aspect-ratio: 640/340;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+#tiles #piece2{
+    margin:0;
+    padding:0;
+    /*  */
+    width:100%;
+    /*  */
+}
+#tiles #piece2 #p1{
+    margin:0;
+    padding: 0px 0px 0px 20px;
+    /*  */
+    height:10%;
+    width:100%;
+    /*  */
+    font-size: 25px;
+    font-weight: bolder;
+}
+#tiles #piece2 #p2{
+    margin:0;
+    padding: 5px 0px 0px 10px;
+    /*  */
+    height:16%;
+    width:100%;
+    /*  */
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    /*  */
+    display: flex;
+
+}
+#tiles #piece2 #p2 span{
+    background: white;
+    color:black;
+}
+#tiles #piece2 #p2 span i{
+    height:50px;
+    width:50px;
+    color:black;
+    font-size: 30px;
+}
+#tiles #piece2 #p3{
+    margin:0;
+    padding: 0px 10px 0px 10px;
+    /*  */
+    height:100%;
+    /* width:100%; */
+    /*  */
+}
+#tiles #piece2 #p4{
+    margin:0;
+    padding:0;
+    /*  */
+    height:26%;
+    width:100%;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tiles #piece2 #p4 button{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+    /* border: 2px solid orangered; */
+    border-radius: 20px;
+    background: transparent;
+    /* color:orangered; */
+    /*  */
+    cursor: pointer;
+}
+#four{
+    height:15vh;
+    width:100vw;
+}
+#four #accounts{
+    margin: 10px 0px 0px 20px;
+    /*  */
+    height:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#four #accounts span{
+    margin: 0px 0px 0px 10px;
+    /*  */
+    background:rgb(255, 255, 255);
+    border-radius: 16px;
+    height:45px;
+    width:45px;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*  */
+    font-size: 30px;
+    /*  */
+    cursor: pointer;
+}
+i{
+    color:orange;
+    text-align: center;
+}
