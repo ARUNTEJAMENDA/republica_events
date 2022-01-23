@@ -273,4 +273,7 @@ i{
         width:80%;
         height:90%;
     }
+    nav ul li{
+        padding:0;
+    }
 }
